@@ -8,12 +8,53 @@ use Illuminate\View\Component;
 
 class FilteredAdvertises extends Component
 {
+
+    public $advertisesList;
+
     /**
      * Create a new component instance.
      */
     public function __construct()
     {
-        //
+
+        $this->advertisesList = [
+            [
+                'image' => 'http://placehold.it/145x145',
+                'title' => 'ênis vans Baby - 1 ano',
+                'price' => 'R$ 189,99',
+                'href' => '#'
+            ],
+            [
+                'image' => 'http://placehold.it/145x145',
+                'title' => 'ênis vans Baby - 1 ano',
+                'price' => 'R$ 189,99',
+                'href' => '#'
+            ],
+            [
+                'image' => 'http://placehold.it/145x145',
+                'title' => 'ênis vans Baby - 1 ano',
+                'price' => 'R$ 189,99',
+                'href' => '#'
+            ],
+            [
+                'image' => 'http://placehold.it/145x145',
+                'title' => 'ênis vans Baby - 1 ano',
+                'price' => 'R$ 189,99',
+                'href' => '#'
+            ],
+            [
+                'image' => 'http://placehold.it/145x145',
+                'title' => 'ênis vans Baby - 1 ano',
+                'price' => 'R$ 189,99',
+                'href' => '#'
+            ],
+            [
+                'image' => 'http://placehold.it/145x145',
+                'title' => 'ênis vans Baby - 1 ano',
+                'price' => 'R$ 189,99',
+                'href' => '#'
+            ]
+        ];
     }
 
     /**
